@@ -94,14 +94,14 @@ export default function Attendance() {
   }, []);
 
   return (
-    <div className="m-3 p-2">
+    <div className="m-2 p-2">
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand"><FaUser color='green' size={50} /></a>
         <form className="d-flex">
           <Link to='/' onClick={handleClick}><button className="btn btn-success">Log Out</button></Link>
         </form>
       </nav>
-      <div className="row mt-5">
+      <div className="row mt-2">
         <div className="card" style={{ height: '600px' }}>
           <div className="card-body row justify-content-center">
             <h2 className=" card-title text-center mb-2">Attendance Calendar</h2>
