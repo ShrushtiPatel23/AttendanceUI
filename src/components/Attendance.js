@@ -98,8 +98,8 @@ export default function Attendance() {
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand"><FaUser color='green' size={50} /></a>
         <form className="d-flex justify-content-between">
-          <Link to='/allRecord'><button className='btn btn-success ml-2'>Show Attendance Record</button></Link>
-          <Link to='/' onClick={handleClick}><button className="btn btn-success ml-2">Log Out</button></Link>
+          <Link to='/allRecord'><button className='btn btn-success m-2'>Show Attendance Record</button></Link>
+          <Link to='/' onClick={handleClick}><button className="btn btn-success m-2">Log Out</button></Link>
         </form>
       </nav>
       <div className="row">
