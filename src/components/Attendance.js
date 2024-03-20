@@ -106,18 +106,19 @@ export default function Attendance() {
         <div className="card" style={{ height: '600px' }}>
           <div className="card-body row justify-content-center">
             <h2 className=" card-title text-center">Attendance Calendar</h2>
-            <Calendar
-              onChange={handleDateChange}
-              value={selectedDates}
-              tileContent={tileContent}
-              tileDisabled={tileContent}
-            />
             <div className='d-flex justify-content-center'>
               <div className='mt-2 m-2' style={{ backgroundColor: 'green', borderRadius: '50%', width: '20px', height: '20px', padding: '10px' }}></div>
               <p className='mt-2'>Present</p>
               <div className='mt-2 m-2' style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', padding: '10px' }}></div>
               <p className='mt-2'>Absent</p>
             </div>
+            <Calendar
+              onChange={handleDateChange}
+              value={selectedDates}
+              tileContent={tileContent}
+              tileDisabled={tileContent}
+            />
+            
           </div>
         </div>
 
