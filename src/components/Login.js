@@ -10,7 +10,6 @@ export default function Login() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // Handle login logic here
         console.log({user});
         await axios.post(`${url}/users/login`, user)
           .then((response) => {
