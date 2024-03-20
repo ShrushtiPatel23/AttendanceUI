@@ -98,7 +98,7 @@ export default function Attendance() {
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand"><FaUser color='green' size={50} /></a>
         <form className="d-flex">
-           <Link to='/allRecord'><button className='btn btn-success'>Show Attendance Record</button></Link>
+           <Link to='/allRecord'><button className='btn btn-success py-2'>Show Attendance Record</button></Link>
           <Link to='/' onClick={handleClick}><button className="btn btn-success">Log Out</button></Link>
         </form>
       </nav>
