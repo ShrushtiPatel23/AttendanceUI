@@ -98,14 +98,14 @@ export default function Attendance() {
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand"><FaUser color='green' size={50} /></a>
         <form className="d-flex">
-           <Link to='/allRecord'><button className='btn btn-primary m-2'>Show Attendance Record</button></Link>
+           <Link to='/allRecord'><button className='btn btn-success'>Show Attendance Record</button></Link>
           <Link to='/' onClick={handleClick}><button className="btn btn-success">Log Out</button></Link>
         </form>
       </nav>
       <div className="row">
         <div className="card" style={{ height: '600px' }}>
           <div className="card-body row justify-content-center">
-            <h2 className=" card-title text-center mb-2">Attendance Calendar</h2>
+            <h2 className=" card-title text-center">Attendance Calendar</h2>
             <Calendar
               onChange={handleDateChange}
               value={selectedDates}
