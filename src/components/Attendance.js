@@ -98,6 +98,7 @@ export default function Attendance() {
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand"><FaUser color='green' size={50} /></a>
         <form className="d-flex">
+           <Link to='/allRecord'><button className='btn btn-primary m-2'>Show Attendance Record</button></Link>
           <Link to='/' onClick={handleClick}><button className="btn btn-success">Log Out</button></Link>
         </form>
       </nav>
@@ -117,9 +118,6 @@ export default function Attendance() {
               <div className='mt-2 m-2' style={{ backgroundColor: 'red', borderRadius: '50%', width: '20px', height: '20px', padding: '10px' }}></div>
               <p className='mt-2'>Absent</p>
             </div>
-          </div>
-          <div className='p-2 m-2 text-center' >
-            <Link to='/allRecord'><button className='btn btn-primary'>Show Attendance Record</button></Link>
           </div>
         </div>
 
