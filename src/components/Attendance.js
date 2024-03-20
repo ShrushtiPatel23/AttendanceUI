@@ -101,7 +101,7 @@ export default function Attendance() {
           <Link to='/' onClick={handleClick}><button className="btn btn-success">Log Out</button></Link>
         </form>
       </nav>
-      <div className="row mt-2">
+      <div className="row">
         <div className="card" style={{ height: '600px' }}>
           <div className="card-body row justify-content-center">
             <h2 className=" card-title text-center mb-2">Attendance Calendar</h2>
